@@ -6,7 +6,6 @@ import * as S from './styled';
 
 const CountriesList = () => {
   const [countries, setCountries] = useState([]);
-  console.log(countries);
   useEffect(() => {
     const getCountries = async () =>
       await fetch(config.countries)
