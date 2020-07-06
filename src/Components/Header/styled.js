@@ -25,13 +25,15 @@ export const HeaderTitle = styled.h1`
 
   > span {
     display: block;
-    font-size: 12px;
+    font-size: 5px;
     line-height: 18px;
+    margin-top: 8px;
+
     margin-right: 8px;
 
     ${media.tablet`
       font-size: 24px;
-      font-weight: 400;
+      font-weight: 300;
       margin-right: 0;
     `}
   }
