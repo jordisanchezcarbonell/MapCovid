@@ -1,2 +1,3 @@
 # MapCovid
  
+![](/imagenes/coronapng.png)
